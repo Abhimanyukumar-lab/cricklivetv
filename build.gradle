@@ -1,0 +1,45 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.0.2'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+apply plugin: 'com.android.application'
+
+android {
+    namespace 'crazzydevelopers_vj.applepie'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "crazzydevelopers_vj.applepie"
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "1.1"
+        setProperty("archivesBaseName", "CrickLiveTv")
+    }
+
+
+    
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    // Jetifier will convert these to AndroidX automatically
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:support-v4:28.0.0'
+}
