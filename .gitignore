@@ -1,5 +1,6 @@
 .gradle
 /build
+!/build/outputs/apk/debug/CrickLiveTv-debug.apk
 /local.properties
 /.idea/workspace.xml
 /.idea/libraries
