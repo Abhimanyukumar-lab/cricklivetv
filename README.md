@@ -14,7 +14,8 @@ CrickLiveTv is a professional Android application designed for cricket enthusias
 ## 📱 Screenshots
 
 <div align="center">
-  <img src="src/main/res/drawable/ic_launcher_crick.xml" width="200" title="App Icon">
+  <!-- <img src="src/main/res/drawable/ic_launcher_crick.xml" width="200" title="App Icon"> -->
+    <img width="200" height="200" alt="CricLiveTv" src="https://github.com/user-attachments/assets/d0c47d2a-4d42-47d4-b963-8655feb9e153" />
   <p><i>Modern Cricket-Themed Icon</i></p>
 </div>
 
